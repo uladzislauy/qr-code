@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "lib": ["ES2019"],
+    "module": "commonjs",
+    "target": "ES2019",
+    "sourceMap": false,
+    "declaration": false,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "./src/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
