@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "yarn tsc && node lib/index.js",
+    "start": "node lib/index.js",
     "lint": "eslint ./src/*.ts",
     "test": "jest",
     "tsc": "tsc"
